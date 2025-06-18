@@ -90,17 +90,6 @@ The notebook.ipynb preprocesses these files to create a pickled file (movie_list
 
 
 
-
-## Usage
-
-Run the Streamlit App:
-
-Start the web interface:streamlit run app.py
-
-
-Open your browser and navigate to http://localhost:8501.
-
-
 ## Interact with the App:
 
 Select or type a movie title in the input field.
