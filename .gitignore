@@ -1,0 +1,8 @@
+# Folders
+.ipynb_checkpoints/
+venv/
+
+# Files
+similarity.npy
+tmdb_5000_credits.csv
+tmdb_5000_movies.csv
