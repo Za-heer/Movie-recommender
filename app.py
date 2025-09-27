@@ -16,7 +16,8 @@ templates = Jinja2Templates(directory="templates")
 
 # Load data
 try:
-    similarity = np.load('similarity.npy', allow_pickle=False)
+    data = np.load("similarity_compressed.npz")
+    similarity = data["sim"]
     df = pd.read_csv('movies_data.csv')
     titles = df["title"].tolist()
 except FileNotFoundError:
